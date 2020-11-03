@@ -1,0 +1,139 @@
+body {
+	background-color: #C8A3A8;
+}
+
+.robot {
+	text-align: center;
+	font-family: 'Sedgwick Ave Display', cursive;
+	justify-content: center;
+}
+
+
+.head {
+	height: 150px;
+	width: 200px;
+	border: 2px solid #A13647;
+	border-radius: 150px 150px 0 0;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.head:hover {
+	width: 300px;
+	transform: translate(20px, 10px);
+    transition: 1s ease-in-out;
+	transform: rotate(1turn);
+
+}
+
+.lefteye{
+
+	position: relative;
+	border: 2px solid white;
+	height: 20px;
+	width: 20px;
+	border-radius: 150px 150px 150px 150px;
+	left:20px;
+	top:80px;
+
+}
+
+.righteye{
+
+	position: relative;
+	border: 2px solid white;
+	height: 20px;
+	width: 20px;
+	border-radius: 150px 150px 150px 150px;
+	left:130px;
+	top:20px;
+	
+}
+
+.middlebody {
+	height: 200px;
+	width: 280px;
+	display: flex;
+	margin: 10px auto;
+	justify-content: center;
+}
+
+.middlebody:hover {
+
+	transition: 1s ease-in-out;
+	transform: scale(1.1) skew(-11deg);
+   
+}
+
+.leftarm {
+	height: 150px;
+	width: 30px;
+	border: 2px solid #A13647;	
+	margin-right: 10px;
+	border-radius: 100px;
+}
+
+
+.mainbody{
+
+	height: 200px;
+	width: 200px;
+	border: 2px solid #A13647;
+	border-radius: 0 0 70px 70px;
+	left:40px;
+}
+
+.rightarm {
+
+	height: 150px;
+	width: 30px;
+	border: 2px solid #A13647;
+	margin-left: 10px;
+	border-radius: 100px;
+
+}
+
+.legs {
+
+	display: flex;
+	height: 150px;
+	width:	200px;
+	margin: 10px auto;
+	justify-content: center;
+} 
+
+
+.leftleg {
+
+	height: 150px;
+	width: 30px;	
+	border: 2px solid #A13647;
+	margin-left: 5px;
+}
+
+.leftleg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.rightleg {
+
+	height: 150px;
+	width: 30px;
+	border: 2px solid #A13647;
+	margin-left: 50px;
+	
+}
+
+.rightleg:hover {
+	-webkit-transform: skewX(25deg);
+	-moz-transform: skewX(25deg);
+    -o-transform: skewX(25deg);
+    -ms-transform: skewX(25deg);
+     transform: skewX(25deg);
+}
+
+ 
